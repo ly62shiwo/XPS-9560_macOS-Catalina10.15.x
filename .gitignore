@@ -1,75 +1,22 @@
-# Compiled class file
-*.class
-*.o
-*.so
-*.dll
+# Build
+bulid/
 *.exe
-*.pid
 
-# Log file
-logs/
+# venv
+vendor/
+
+# Log
 *.log
 
-# Package Files
-*.jar
-*.war
-*.ear
-*.sar
-*.tar
-*.tar.gz
-*.zip
-*.rar
-*.7z
-*.iso
-*.dmg
-*.rpm
+# VSCode settings
+.vscode
 
-# Eclipse project files
-.classpath
-.project
-.settings/
+# IDEA files
+.idea
 
-
-# Intellij project files
-*.iml
-.idea/
-
-# project
-application-local.properties
-build/
-
-# Mobile Tools for Java
-.mtj.tmp/
-
-# BlueJ files
-*.ctxt
-
-# virtual machine crash logs
-hs_err_pid*
-
-# tmp
-tmp/
-temp/
-
-#OS generated files
+# OSX dir files
 .DS_Store
-.Spotlight-V100
-.Trashes
-Thumbs.db
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-## maven
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-
-# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
-!/.mvn/wrapper/maven-wrapper.jar
+# Sublime Text settings
+*.sublime-workspace
+*.sublime-project
