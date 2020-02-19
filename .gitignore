@@ -1,0 +1,75 @@
+# Compiled class file
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.pid
+
+# Log file
+logs/
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.sar
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+*.iso
+*.dmg
+*.rpm
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+
+# Intellij project files
+*.iml
+.idea/
+
+# project
+application-local.properties
+build/
+
+# Mobile Tools for Java
+.mtj.tmp/
+
+# BlueJ files
+*.ctxt
+
+# virtual machine crash logs
+hs_err_pid*
+
+# tmp
+tmp/
+temp/
+
+#OS generated files
+.DS_Store
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+## maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
